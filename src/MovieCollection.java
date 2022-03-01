@@ -110,11 +110,12 @@ public class MovieCollection
     for (int i = 0; i < results.size(); i++)
     {
       String title = results.get(i).getTitle();
+      int year = results.get(i).getYear();
 
       // this will print index 0 as choice 1 in the results list; better for user!
       int choiceNum = i + 1;
 
-      System.out.println("" + choiceNum + ". " + title);
+      System.out.println("" + choiceNum + ". " + title + " (" + year + ")");
     }
 
     System.out.println("Which movie would you like to learn more about?");
@@ -253,11 +254,12 @@ public class MovieCollection
     for (int i = 0; i < results.size(); i++)
     {
       String title = results.get(i).getTitle();
+      int year = results.get(i).getYear();
 
       // this will print index 0 as choice 1 in the results list; better for user!
       int choiceNum = i + 1;
 
-      System.out.println("" + choiceNum + ". " + title);
+      System.out.println("" + choiceNum + ". " + title + " (" + year + ")");
     }
 
     System.out.println("Which movie would you like to learn more about?");
@@ -306,10 +308,12 @@ public class MovieCollection
     for (int i = 0; i < results.size(); i++)
     {
       String title = results.get(i).getTitle();
+      int year = results.get(i).getYear();
+
       // this will print index 0 as choice 1 in the results list; better for user!
       int choiceNum = i + 1;
 
-      System.out.println("" + choiceNum + ". " + title);
+      System.out.println("" + choiceNum + ". " + title + " (" + year + ")");
     }
 
     System.out.println("Which movie would you like to learn more about?");
@@ -359,7 +363,7 @@ public class MovieCollection
       // this will print index 0 as choice 1 in the results list; better for user!
       int choiceNum = i + 1;
 
-      System.out.println("" + choiceNum + ". " + castMember);
+      System.out.println("" + choiceNum + ". " + castMember );
     }
 
     System.out.println("Which cast member do you want to see what movies they star in?");
@@ -398,11 +402,12 @@ public class MovieCollection
     for (int i = 0; i < results.size(); i++)
     {
       String title = results.get(i).getTitle();
+      int year = results.get(i).getYear();
 
       // this will print index 0 as choice 1 in the results list; better for user!
       int choiceNum = i + 1;
 
-      System.out.println("" + choiceNum + ". " + title);
+      System.out.println("" + choiceNum + ". " + title + " (" + year + ")");
     }
 
     System.out.println("Which movie would you like to learn more about?");
